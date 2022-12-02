@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+#main_div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+#main_div > div{
+    border: solid brown 10px ;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+   
+}
+img{
+    max-width: 100%;
+}
+h2{
+    background-color: rebeccapurple;
+}
+h3{
+    background-color: rgb(37, 146, 70);
+}
+header{
+    margin: 50px;
+    float: right;
+}
